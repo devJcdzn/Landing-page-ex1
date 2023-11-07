@@ -16,6 +16,9 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
   <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     .gradient {
       background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
     }
@@ -50,11 +53,11 @@
           </li>
           <li class="mr-3">
             <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="#">Sobre</a>
+              href="#about">Sobre</a>
           </li>
           <li class="mr-3">
             <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="#">Contato</a>
+              href="#contact">Contato</a>
           </li>
         </ul>
         <button id="navAction"
@@ -111,7 +114,7 @@
       </g>
     </svg>
   </div>
-  <section class="bg-white border-b py-8">
+  <section class="bg-white border-b py-8" id="about">
     <div class="container max-w-5xl mx-auto m-8">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Titulo
@@ -560,7 +563,7 @@
       </g>
     </g>
   </svg>
-  <section class="container mx-auto text-center py-6 mb-12">
+  <section class="container mx-auto text-center py-6 mb-12" id="contact">
     <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
       Contate-nos
     </h2>
